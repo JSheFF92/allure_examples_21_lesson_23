@@ -10,7 +10,7 @@ public class SpamCallsArchivePage {
 
     private final SelenideElement
                     checkResult = $("h1"),
-                    archiveServices = $(".alphabetical-list");
+                    archiveServices = $(".alphabetical-list__values div:nth-child(2) a:nth-child(1) span:nth-child(1)");
     //archive__group
 
     public SpamCallsArchivePage goChoiceArchiveService(String value) {
