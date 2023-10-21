@@ -40,10 +40,10 @@ public class SpamCallsIsArchivedTest extends BaseTest {
                     .goToArchive();
         });
 
-        step("Choice mobile services", () ->
-            mobileServiceArchivePage
-                    .goToArchiveList("Звонки")
-        );
+//        step("Choice mobile services", () ->
+//            mobileServiceArchivePage
+//                    .goToArchiveList("Звонки")
+//        );
 
         step("Choice archive block calls", () -> {
         spamCallsIsArchivedPage
