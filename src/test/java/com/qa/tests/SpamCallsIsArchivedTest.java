@@ -43,7 +43,7 @@ public class SpamCallsIsArchivedTest extends BaseTest {
 //        step("Choice mobile services", () ->
 //            mobileServiceArchivePage
 //                    .goToArchiveList("Звонки")
-//        );
+//        ); нажимает первый элемент в списке и не дает проверить дальше - удалить страницу эту нужно бы
 
         step("Choice archive block calls", () -> {
         spamCallsIsArchivedPage
